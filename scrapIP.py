@@ -15,10 +15,3 @@ with open('RT1-TP1 - A1.csv') as csvfile:
 	
 for i in range (len(Nom)):
 	print ("ip route add dst-adress = "+PatteInterieur[i]+" gateway = "+PatteExterieur[i])
-
-
-
-
-
-
-
